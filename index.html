@@ -1,0 +1,1471 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+
+  <div class="wrapper">
+    <header class="header">
+      <div class="container">
+        <div class="header__inner">
+          <a class="logo header__logo" href="#">
+            <img class="logo__img" src="images/logo.svg" alt="Logo">
+          </a>
+          <nav class="menu">
+            <ul class="menu__list">
+              <li class="menu__item menu__item--active">
+                <a class="menu__list-link" href="#">Home</a>
+              </li>
+              <li class="menu__item">
+                <a class="menu__list-link" href="#">Shop</a>
+              </li>
+              <li class="menu__item">
+                <a class="menu__list-link" href="#">Plant Care</a>
+              </li>
+              <li class="menu__item">
+                <a class="menu__list-link" href="#">Blogs</a>
+              </li>
+            </ul>
+          </nav>
+          <div class="header__buttons">
+            <form class="header__form" action="#">
+              <button class="header__search-btn">
+                <svg class="header__search-img icon">
+                  <use xlink:href='images/sprite.svg#icon-search-desktop'></use>
+                </svg>
+              </button>
+              <input class="header__search" type="text" name="" placeholder="Find your plants">
+            </form>
+            <a class="header__cart" href="#">
+              <svg class="header__cart-img">
+                <use xlink:href='images/sprite.svg#icon-cart-desktop'></use>
+              </svg>
+              <span class="header__cart-num">6</span>
+            </a>
+            <button class="header__login btn-animation" data-open>
+              <img class="header__login-img" src="images/login.svg" alt="">
+              Login
+            </button>
+            <button class="header__mobile-menu">
+              <img src="images/menu-mobile.svg" alt="">
+            </button>
+          </div>
+        </div>
+      </div>
+    </header>
+    <div class="main">
+      <section class="top-banner">
+        <div class="container">
+          <div class="top-banner__slider">
+            <a class="top-banner__slider-item" href="#">
+              <picture class="top-banner__slider-img">
+                <source srcset="images/top-banner-mobile.jpg" media="(max-width: 680px)">
+                <img src="images/top-banner.jpg" alt="">
+              </picture>
+            </a>
+            <a class="top-banner__slider-item" href="#">
+              <picture class="top-banner__slider-img">
+                <source srcset="images/top-banner-mobile.jpg" media="(max-width: 680px)">
+                <img src="images/top-banner.jpg" alt="">
+              </picture>
+            </a>
+            <a class="top-banner__slider-item" href="#">
+              <picture class="top-banner__slider-img">
+                <source srcset="images/top-banner-mobile.jpg" media="(max-width: 680px)">
+                <img src="images/top-banner.jpg" alt="">
+              </picture>
+            </a>
+          </div>
+        </div>
+      </section>
+      <section class="catalog">
+        <div class="container">
+          <div class="catalog__inner">
+            <div class="catalog__wrapper">
+              <aside class="catalog__aside">
+                <h4 class="heading-4 catalog__aside-title">
+                  Categories
+                </h4>
+                <ul class="catalog__aside-list">
+                  <li class="catalog__aside-item catalog__aside-item--active">
+                    <a href="#">
+                      <span>House Plants</span>
+                      <span>(33)</span>
+                    </a>
+                  </li>
+                  <li class="catalog__aside-item">
+                    <a href="#">
+                      <span>Potter Plants</span>
+                      <span>(12)</span>
+                    </a>
+                  </li>
+                  <li class="catalog__aside-item">
+                    <a href="#">
+                      <span>Seeds</span>
+                      <span>(65)</span>
+                    </a>
+                  </li>
+                  <li class="catalog__aside-item">
+                    <a href="#">
+                      <span>Small Plants</span>
+                      <span>(65)</span>
+                    </a>
+                  </li>
+                  <li class="catalog__aside-item">
+                    <a href="#">
+                      <span>Small Plants</span>
+                      <span>(65)</span>
+                    </a>
+                  </li>
+                  <li class="catalog__aside-item">
+                    <a href="#">
+                      <span>Small Plants</span>
+                      <span>(65)</span>
+                    </a>
+                  </li>
+                  <li class="catalog__aside-item">
+                    <a href="#">
+                      <span>Small Plants</span>
+                      <span>(65)</span>
+                    </a>
+                  </li>
+                  <li class="catalog__aside-item">
+                    <a href="#">
+                      <span>Small Plants</span>
+                      <span>(65)</span>
+                    </a>
+                  </li>
+                  <li class="catalog__aside-item">
+                    <a href="#">
+                      <span>Small Plants</span>
+                      <span>(65)</span>
+                    </a>
+                  </li>
+                </ul>
+                <div class="catalog__rangeslider">
+                  <h4 class="heading-4">
+                    Price Range
+                  </h4>
+                  <div class="catalog__rangeslider-inner">
+                    <div class="catalog__rangeslider-content">
+                      <input class="js-range-slider" type="text" name="my_range" value="" data-type="double"
+                        data-min="20" data-max="2000" data-from="135" data-to="1250" />
+                    </div>
+                    <div class="catalog__rangeslider-price">
+                      <span>Price:</span>
+                      <span class="catalog__rangeslider-fromto">$135 - $1250</span>
+                    </div>
+                    <button class="catalog__rangeslider-btn btn-animation">Filter</button>
+                  </div>
+                </div>
+                <h4 class="heading-4 catalog__aside-title">
+                  Categories
+                </h4>
+                <ul class="catalog__aside-list">
+                  <li class="catalog__aside-item">
+                    <a href="#">
+                      <span>Small</span>
+                      <span>(133)</span>
+                    </a>
+                  </li>
+                  <li class="catalog__aside-item">
+                    <a href="#">
+                      <span>Medium</span>
+                      <span>(123)</span>
+                    </a>
+                  </li>
+                  <li class="catalog__aside-item pb-small">
+                    <a href="#">
+                      <span>Large</span>
+                      <span>(57)</span>
+                    </a>
+                  </li>
+                </ul>
+              </aside>
+              <img class="catalog__aside-banner" src="images/sale-banner.jpg" alt="">
+            </div>
+            <div class="catalog__list">
+              <div class="catalog__parameters">
+
+                <div class="catalog__tabs tabs-inner">
+
+                  <div class="catalog__tabs-btn btn--active tabs-btn">All Plants</div>
+                  <div class="catalog__tabs-btn tabs-btn">New Arrivals</div>
+                  <div class="catalog__tabs-btn tabs-btn">Sale</div>
+
+                </div>
+                <div class="catalog__parameters-sort"></div>
+
+              </div>
+
+              <div class="catalog__list-items tabs-content">
+
+                <div class="product sale">
+                  <div class="product__links">
+                    <a class="product__cart product__links-item" href="#">
+                      <svg class="product__search-img icon">
+                        <use xlink:href='images/sprite.svg#icon-cart-desktop'></use>
+                      </svg>
+                    </a>
+                    <button class="product__favourite product__links-item" href="#">
+                      <svg class="product__search-img icon">
+                        <use xlink:href='images/sprite.svg#icon-favourite'></use>
+                      </svg>
+                    </button>
+                    <a class="product__search product__links-item" href="#">
+                      <svg class="product__search-img icon">
+                        <use xlink:href='images/sprite.svg#icon-search-desktop'></use>
+                      </svg>
+                    </a>
+                  </div>
+                  <a class="product__inner" href="#">
+                    <div class="product__content">
+                      <div class="product__sale">
+                        13% OFF
+                      </div>
+                      <img class="product__img" src="images/product-1.jpg" alt="">
+                    </div>
+                    <div class="product__descr">
+                      <p class="product__name">African Violet</p>
+                      <div class="product__price">
+                        <p class="product__price-now">$199.00</p>
+                        <p class="product__price-old">$229.00</p>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="product">
+                  <div class="product__links">
+                    <a class="product__cart product__links-item" href="#">
+                      <svg class="product__search-img icon">
+                        <use xlink:href='images/sprite.svg#icon-cart-desktop'></use>
+                      </svg>
+                    </a>
+                    <button class="product__favourite product__links-item" href="#">
+                      <svg class="product__search-img icon">
+                        <use xlink:href='images/sprite.svg#icon-favourite'></use>
+                      </svg>
+                    </button>
+                    <a class="product__search product__links-item" href="#">
+                      <svg class="product__search-img icon">
+                        <use xlink:href='images/sprite.svg#icon-search-desktop'></use>
+                      </svg>
+                    </a>
+                  </div>
+                  <a class="product__inner" href="#">
+                    <div class="product__content">
+                      <div class="product__sale">
+                        13% OFF
+                      </div>
+                      <img class="product__img" src="images/product-1.jpg" alt="">
+                    </div>
+                    <div class="product__descr">
+                      <p class="product__name">African Violet</p>
+                      <div class="product__price">
+                        <p class="product__price-now">$199.00</p>
+                        <p class="product__price-old">$229.00</p>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="product">
+                  <div class="product__links">
+                    <a class="product__cart product__links-item" href="#">
+                      <svg class="product__search-img icon">
+                        <use xlink:href='images/sprite.svg#icon-cart-desktop'></use>
+                      </svg>
+                    </a>
+                    <button class="product__favourite product__links-item" href="#">
+                      <svg class="product__search-img icon">
+                        <use xlink:href='images/sprite.svg#icon-favourite'></use>
+                      </svg>
+                    </button>
+                    <a class="product__search product__links-item" href="#">
+                      <svg class="product__search-img icon">
+                        <use xlink:href='images/sprite.svg#icon-search-desktop'></use>
+                      </svg>
+                    </a>
+                  </div>
+                  <a class="product__inner" href="#">
+                    <div class="product__content">
+                      <div class="product__sale">
+                        13% OFF
+                      </div>
+                      <img class="product__img" src="images/product-1.jpg" alt="">
+                    </div>
+                    <div class="product__descr">
+                      <p class="product__name">African Violet</p>
+                      <div class="product__price">
+                        <p class="product__price-now">$199.00</p>
+                        <p class="product__price-old">$229.00</p>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="product">
+                  <div class="product__links">
+                    <a class="product__cart product__links-item" href="#">
+                      <svg class="product__search-img icon">
+                        <use xlink:href='images/sprite.svg#icon-cart-desktop'></use>
+                      </svg>
+                    </a>
+                    <button class="product__favourite product__links-item" href="#">
+                      <svg class="product__search-img icon">
+                        <use xlink:href='images/sprite.svg#icon-favourite'></use>
+                      </svg>
+                    </button>
+                    <a class="product__search product__links-item" href="#">
+                      <svg class="product__search-img icon">
+                        <use xlink:href='images/sprite.svg#icon-search-desktop'></use>
+                      </svg>
+                    </a>
+                  </div>
+                  <a class="product__inner" href="#">
+                    <div class="product__content">
+                      <div class="product__sale">
+                        13% OFF
+                      </div>
+                      <img class="product__img" src="images/product-1.jpg" alt="">
+                    </div>
+                    <div class="product__descr">
+                      <p class="product__name">African Violet</p>
+                      <div class="product__price">
+                        <p class="product__price-now">$199.00</p>
+                        <p class="product__price-old">$229.00</p>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="product">
+                  <div class="product__links">
+                    <a class="product__cart product__links-item" href="#">
+                      <svg class="product__search-img icon">
+                        <use xlink:href='images/sprite.svg#icon-cart-desktop'></use>
+                      </svg>
+                    </a>
+                    <button class="product__favourite product__links-item" href="#">
+                      <svg class="product__search-img icon">
+                        <use xlink:href='images/sprite.svg#icon-favourite'></use>
+                      </svg>
+                    </button>
+                    <a class="product__search product__links-item" href="#">
+                      <svg class="product__search-img icon">
+                        <use xlink:href='images/sprite.svg#icon-search-desktop'></use>
+                      </svg>
+                    </a>
+                  </div>
+                  <a class="product__inner" href="#">
+                    <div class="product__content">
+                      <div class="product__sale">
+                        13% OFF
+                      </div>
+                      <img class="product__img" src="images/product-1.jpg" alt="">
+                    </div>
+                    <div class="product__descr">
+                      <p class="product__name">African Violet</p>
+                      <div class="product__price">
+                        <p class="product__price-now">$199.00</p>
+                        <p class="product__price-old">$229.00</p>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="product">
+                  <div class="product__links">
+                    <a class="product__cart product__links-item" href="#">
+                      <svg class="product__search-img icon">
+                        <use xlink:href='images/sprite.svg#icon-cart-desktop'></use>
+                      </svg>
+                    </a>
+                    <button class="product__favourite product__links-item" href="#">
+                      <svg class="product__search-img icon">
+                        <use xlink:href='images/sprite.svg#icon-favourite'></use>
+                      </svg>
+                    </button>
+                    <a class="product__search product__links-item" href="#">
+                      <svg class="product__search-img icon">
+                        <use xlink:href='images/sprite.svg#icon-search-desktop'></use>
+                      </svg>
+                    </a>
+                  </div>
+                  <a class="product__inner" href="#">
+                    <div class="product__content">
+                      <div class="product__sale">
+                        13% OFF
+                      </div>
+                      <img class="product__img" src="images/product-1.jpg" alt="">
+                    </div>
+                    <div class="product__descr">
+                      <p class="product__name">African Violet</p>
+                      <div class="product__price">
+                        <p class="product__price-now">$199.00</p>
+                        <p class="product__price-old">$229.00</p>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="product">
+                  <div class="product__links">
+                    <a class="product__cart product__links-item" href="#">
+                      <svg class="product__search-img icon">
+                        <use xlink:href='images/sprite.svg#icon-cart-desktop'></use>
+                      </svg>
+                    </a>
+                    <button class="product__favourite product__links-item" href="#">
+                      <svg class="product__search-img icon">
+                        <use xlink:href='images/sprite.svg#icon-favourite'></use>
+                      </svg>
+                    </button>
+                    <a class="product__search product__links-item" href="#">
+                      <svg class="product__search-img icon">
+                        <use xlink:href='images/sprite.svg#icon-search-desktop'></use>
+                      </svg>
+                    </a>
+                  </div>
+                  <a class="product__inner" href="#">
+                    <div class="product__content">
+                      <div class="product__sale">
+                        13% OFF
+                      </div>
+                      <img class="product__img" src="images/product-1.jpg" alt="">
+                    </div>
+                    <div class="product__descr">
+                      <p class="product__name">African Violet</p>
+                      <div class="product__price">
+                        <p class="product__price-now">$199.00</p>
+                        <p class="product__price-old">$229.00</p>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="product">
+                  <div class="product__links">
+                    <a class="product__cart product__links-item" href="#">
+                      <svg class="product__search-img icon">
+                        <use xlink:href='images/sprite.svg#icon-cart-desktop'></use>
+                      </svg>
+                    </a>
+                    <button class="product__favourite product__links-item" href="#">
+                      <svg class="product__search-img icon">
+                        <use xlink:href='images/sprite.svg#icon-favourite'></use>
+                      </svg>
+                    </button>
+                    <a class="product__search product__links-item" href="#">
+                      <svg class="product__search-img icon">
+                        <use xlink:href='images/sprite.svg#icon-search-desktop'></use>
+                      </svg>
+                    </a>
+                  </div>
+                  <a class="product__inner" href="#">
+                    <div class="product__content">
+                      <div class="product__sale">
+                        13% OFF
+                      </div>
+                      <img class="product__img" src="images/product-1.jpg" alt="">
+                    </div>
+                    <div class="product__descr">
+                      <p class="product__name">African Violet</p>
+                      <div class="product__price">
+                        <p class="product__price-now">$199.00</p>
+                        <p class="product__price-old">$229.00</p>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="product">
+                  <div class="product__links">
+                    <a class="product__cart product__links-item" href="#">
+                      <svg class="product__search-img icon">
+                        <use xlink:href='images/sprite.svg#icon-cart-desktop'></use>
+                      </svg>
+                    </a>
+                    <button class="product__favourite product__links-item" href="#">
+                      <svg class="product__search-img icon">
+                        <use xlink:href='images/sprite.svg#icon-favourite'></use>
+                      </svg>
+                    </button>
+                    <a class="product__search product__links-item" href="#">
+                      <svg class="product__search-img icon">
+                        <use xlink:href='images/sprite.svg#icon-search-desktop'></use>
+                      </svg>
+                    </a>
+                  </div>
+                  <a class="product__inner" href="#">
+                    <div class="product__content">
+                      <div class="product__sale">
+                        13% OFF
+                      </div>
+                      <img class="product__img" src="images/product-1.jpg" alt="">
+                    </div>
+                    <div class="product__descr">
+                      <p class="product__name">African Violet</p>
+                      <div class="product__price">
+                        <p class="product__price-now">$199.00</p>
+                        <p class="product__price-old">$229.00</p>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+
+              </div>
+              <div class="catalog__list-items tabs-content">
+
+                <div class="product">
+                  <div class="product__links">
+                    <a class="product__cart product__links-item" href="#">
+                      <svg class="product__search-img icon">
+                        <use xlink:href='images/sprite.svg#icon-cart-desktop'></use>
+                      </svg>
+                    </a>
+                    <button class="product__favourite product__links-item" href="#">
+                      <svg class="product__search-img icon">
+                        <use xlink:href='images/sprite.svg#icon-favourite'></use>
+                      </svg>
+                    </button>
+                    <a class="product__search product__links-item" href="#">
+                      <svg class="product__search-img icon">
+                        <use xlink:href='images/sprite.svg#icon-search-desktop'></use>
+                      </svg>
+                    </a>
+                  </div>
+                  <a class="product__inner" href="#">
+                    <div class="product__content">
+                      <div class="product__sale">
+                        13% OFF
+                      </div>
+                      <img class="product__img" src="images/product-1.jpg" alt="">
+                    </div>
+                    <div class="product__descr">
+                      <p class="product__name">African Violet</p>
+                      <div class="product__price">
+                        <p class="product__price-now">$199.00</p>
+                        <p class="product__price-old">$229.00</p>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="product sale">
+                  <div class="product__links">
+                    <a class="product__cart product__links-item" href="#">
+                      <svg class="product__search-img icon">
+                        <use xlink:href='images/sprite.svg#icon-cart-desktop'></use>
+                      </svg>
+                    </a>
+                    <button class="product__favourite product__links-item" href="#">
+                      <svg class="product__search-img icon">
+                        <use xlink:href='images/sprite.svg#icon-favourite'></use>
+                      </svg>
+                    </button>
+                    <a class="product__search product__links-item" href="#">
+                      <svg class="product__search-img icon">
+                        <use xlink:href='images/sprite.svg#icon-search-desktop'></use>
+                      </svg>
+                    </a>
+                  </div>
+                  <a class="product__inner" href="#">
+                    <div class="product__content">
+                      <div class="product__sale">
+                        13% OFF
+                      </div>
+                      <img class="product__img" src="images/product-1.jpg" alt="">
+                    </div>
+                    <div class="product__descr">
+                      <p class="product__name">African Violet</p>
+                      <div class="product__price">
+                        <p class="product__price-now">$199.00</p>
+                        <p class="product__price-old">$229.00</p>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="product">
+                  <div class="product__links">
+                    <a class="product__cart product__links-item" href="#">
+                      <svg class="product__search-img icon">
+                        <use xlink:href='images/sprite.svg#icon-cart-desktop'></use>
+                      </svg>
+                    </a>
+                    <button class="product__favourite product__links-item" href="#">
+                      <svg class="product__search-img icon">
+                        <use xlink:href='images/sprite.svg#icon-favourite'></use>
+                      </svg>
+                    </button>
+                    <a class="product__search product__links-item" href="#">
+                      <svg class="product__search-img icon">
+                        <use xlink:href='images/sprite.svg#icon-search-desktop'></use>
+                      </svg>
+                    </a>
+                  </div>
+                  <a class="product__inner" href="#">
+                    <div class="product__content">
+                      <div class="product__sale">
+                        13% OFF
+                      </div>
+                      <img class="product__img" src="images/product-1.jpg" alt="">
+                    </div>
+                    <div class="product__descr">
+                      <p class="product__name">African Violet</p>
+                      <div class="product__price">
+                        <p class="product__price-now">$199.00</p>
+                        <p class="product__price-old">$229.00</p>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="product">
+                  <div class="product__links">
+                    <a class="product__cart product__links-item" href="#">
+                      <svg class="product__search-img icon">
+                        <use xlink:href='images/sprite.svg#icon-cart-desktop'></use>
+                      </svg>
+                    </a>
+                    <button class="product__favourite product__links-item" href="#">
+                      <svg class="product__search-img icon">
+                        <use xlink:href='images/sprite.svg#icon-favourite'></use>
+                      </svg>
+                    </button>
+                    <a class="product__search product__links-item" href="#">
+                      <svg class="product__search-img icon">
+                        <use xlink:href='images/sprite.svg#icon-search-desktop'></use>
+                      </svg>
+                    </a>
+                  </div>
+                  <a class="product__inner" href="#">
+                    <div class="product__content">
+                      <div class="product__sale">
+                        13% OFF
+                      </div>
+                      <img class="product__img" src="images/product-1.jpg" alt="">
+                    </div>
+                    <div class="product__descr">
+                      <p class="product__name">African Violet</p>
+                      <div class="product__price">
+                        <p class="product__price-now">$199.00</p>
+                        <p class="product__price-old">$229.00</p>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="product">
+                  <div class="product__links">
+                    <a class="product__cart product__links-item" href="#">
+                      <svg class="product__search-img icon">
+                        <use xlink:href='images/sprite.svg#icon-cart-desktop'></use>
+                      </svg>
+                    </a>
+                    <button class="product__favourite product__links-item" href="#">
+                      <svg class="product__search-img icon">
+                        <use xlink:href='images/sprite.svg#icon-favourite'></use>
+                      </svg>
+                    </button>
+                    <a class="product__search product__links-item" href="#">
+                      <svg class="product__search-img icon">
+                        <use xlink:href='images/sprite.svg#icon-search-desktop'></use>
+                      </svg>
+                    </a>
+                  </div>
+                  <a class="product__inner" href="#">
+                    <div class="product__content">
+                      <div class="product__sale">
+                        13% OFF
+                      </div>
+                      <img class="product__img" src="images/product-1.jpg" alt="">
+                    </div>
+                    <div class="product__descr">
+                      <p class="product__name">African Violet</p>
+                      <div class="product__price">
+                        <p class="product__price-now">$199.00</p>
+                        <p class="product__price-old">$229.00</p>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="product">
+                  <div class="product__links">
+                    <a class="product__cart product__links-item" href="#">
+                      <svg class="product__search-img icon">
+                        <use xlink:href='images/sprite.svg#icon-cart-desktop'></use>
+                      </svg>
+                    </a>
+                    <button class="product__favourite product__links-item" href="#">
+                      <svg class="product__search-img icon">
+                        <use xlink:href='images/sprite.svg#icon-favourite'></use>
+                      </svg>
+                    </button>
+                    <a class="product__search product__links-item" href="#">
+                      <svg class="product__search-img icon">
+                        <use xlink:href='images/sprite.svg#icon-search-desktop'></use>
+                      </svg>
+                    </a>
+                  </div>
+                  <a class="product__inner" href="#">
+                    <div class="product__content">
+                      <div class="product__sale">
+                        13% OFF
+                      </div>
+                      <img class="product__img" src="images/product-1.jpg" alt="">
+                    </div>
+                    <div class="product__descr">
+                      <p class="product__name">African Violet</p>
+                      <div class="product__price">
+                        <p class="product__price-now">$199.00</p>
+                        <p class="product__price-old">$229.00</p>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="product">
+                  <div class="product__links">
+                    <a class="product__cart product__links-item" href="#">
+                      <svg class="product__search-img icon">
+                        <use xlink:href='images/sprite.svg#icon-cart-desktop'></use>
+                      </svg>
+                    </a>
+                    <button class="product__favourite product__links-item" href="#">
+                      <svg class="product__search-img icon">
+                        <use xlink:href='images/sprite.svg#icon-favourite'></use>
+                      </svg>
+                    </button>
+                    <a class="product__search product__links-item" href="#">
+                      <svg class="product__search-img icon">
+                        <use xlink:href='images/sprite.svg#icon-search-desktop'></use>
+                      </svg>
+                    </a>
+                  </div>
+                  <a class="product__inner" href="#">
+                    <div class="product__content">
+                      <div class="product__sale">
+                        13% OFF
+                      </div>
+                      <img class="product__img" src="images/product-1.jpg" alt="">
+                    </div>
+                    <div class="product__descr">
+                      <p class="product__name">African Violet</p>
+                      <div class="product__price">
+                        <p class="product__price-now">$199.00</p>
+                        <p class="product__price-old">$229.00</p>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="product">
+                  <div class="product__links">
+                    <a class="product__cart product__links-item" href="#">
+                      <svg class="product__search-img icon">
+                        <use xlink:href='images/sprite.svg#icon-cart-desktop'></use>
+                      </svg>
+                    </a>
+                    <button class="product__favourite product__links-item" href="#">
+                      <svg class="product__search-img icon">
+                        <use xlink:href='images/sprite.svg#icon-favourite'></use>
+                      </svg>
+                    </button>
+                    <a class="product__search product__links-item" href="#">
+                      <svg class="product__search-img icon">
+                        <use xlink:href='images/sprite.svg#icon-search-desktop'></use>
+                      </svg>
+                    </a>
+                  </div>
+                  <a class="product__inner" href="#">
+                    <div class="product__content">
+                      <div class="product__sale">
+                        13% OFF
+                      </div>
+                      <img class="product__img" src="images/product-1.jpg" alt="">
+                    </div>
+                    <div class="product__descr">
+                      <p class="product__name">African Violet</p>
+                      <div class="product__price">
+                        <p class="product__price-now">$199.00</p>
+                        <p class="product__price-old">$229.00</p>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="product">
+                  <div class="product__links">
+                    <a class="product__cart product__links-item" href="#">
+                      <svg class="product__search-img icon">
+                        <use xlink:href='images/sprite.svg#icon-cart-desktop'></use>
+                      </svg>
+                    </a>
+                    <button class="product__favourite product__links-item" href="#">
+                      <svg class="product__search-img icon">
+                        <use xlink:href='images/sprite.svg#icon-favourite'></use>
+                      </svg>
+                    </button>
+                    <a class="product__search product__links-item" href="#">
+                      <svg class="product__search-img icon">
+                        <use xlink:href='images/sprite.svg#icon-search-desktop'></use>
+                      </svg>
+                    </a>
+                  </div>
+                  <a class="product__inner" href="#">
+                    <div class="product__content">
+                      <div class="product__sale">
+                        13% OFF
+                      </div>
+                      <img class="product__img" src="images/product-1.jpg" alt="">
+                    </div>
+                    <div class="product__descr">
+                      <p class="product__name">African Violet</p>
+                      <div class="product__price">
+                        <p class="product__price-now">$199.00</p>
+                        <p class="product__price-old">$229.00</p>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+
+              </div>
+              <div class="catalog__list-items tabs-content">
+
+                <div class="product">
+                  <div class="product__links">
+                    <a class="product__cart product__links-item" href="#">
+                      <svg class="product__search-img icon">
+                        <use xlink:href='images/sprite.svg#icon-cart-desktop'></use>
+                      </svg>
+                    </a>
+                    <button class="product__favourite product__links-item" href="#">
+                      <svg class="product__search-img icon">
+                        <use xlink:href='images/sprite.svg#icon-favourite'></use>
+                      </svg>
+                    </button>
+                    <a class="product__search product__links-item" href="#">
+                      <svg class="product__search-img icon">
+                        <use xlink:href='images/sprite.svg#icon-search-desktop'></use>
+                      </svg>
+                    </a>
+                  </div>
+                  <a class="product__inner" href="#">
+                    <div class="product__content">
+                      <div class="product__sale">
+                        13% OFF
+                      </div>
+                      <img class="product__img" src="images/product-1.jpg" alt="">
+                    </div>
+                    <div class="product__descr">
+                      <p class="product__name">African Violet</p>
+                      <div class="product__price">
+                        <p class="product__price-now">$199.00</p>
+                        <p class="product__price-old">$229.00</p>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="product">
+                  <div class="product__links">
+                    <a class="product__cart product__links-item" href="#">
+                      <svg class="product__search-img icon">
+                        <use xlink:href='images/sprite.svg#icon-cart-desktop'></use>
+                      </svg>
+                    </a>
+                    <button class="product__favourite product__links-item" href="#">
+                      <svg class="product__search-img icon">
+                        <use xlink:href='images/sprite.svg#icon-favourite'></use>
+                      </svg>
+                    </button>
+                    <a class="product__search product__links-item" href="#">
+                      <svg class="product__search-img icon">
+                        <use xlink:href='images/sprite.svg#icon-search-desktop'></use>
+                      </svg>
+                    </a>
+                  </div>
+                  <a class="product__inner" href="#">
+                    <div class="product__content">
+                      <div class="product__sale">
+                        13% OFF
+                      </div>
+                      <img class="product__img" src="images/product-1.jpg" alt="">
+                    </div>
+                    <div class="product__descr">
+                      <p class="product__name">African Violet</p>
+                      <div class="product__price">
+                        <p class="product__price-now">$199.00</p>
+                        <p class="product__price-old">$229.00</p>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="product sale">
+                  <div class="product__links">
+                    <a class="product__cart product__links-item" href="#">
+                      <svg class="product__search-img icon">
+                        <use xlink:href='images/sprite.svg#icon-cart-desktop'></use>
+                      </svg>
+                    </a>
+                    <button class="product__favourite product__links-item" href="#">
+                      <svg class="product__search-img icon">
+                        <use xlink:href='images/sprite.svg#icon-favourite'></use>
+                      </svg>
+                    </button>
+                    <a class="product__search product__links-item" href="#">
+                      <svg class="product__search-img icon">
+                        <use xlink:href='images/sprite.svg#icon-search-desktop'></use>
+                      </svg>
+                    </a>
+                  </div>
+                  <a class="product__inner" href="#">
+                    <div class="product__content">
+                      <div class="product__sale">
+                        13% OFF
+                      </div>
+                      <img class="product__img" src="images/product-1.jpg" alt="">
+                    </div>
+                    <div class="product__descr">
+                      <p class="product__name">African Violet</p>
+                      <div class="product__price">
+                        <p class="product__price-now">$199.00</p>
+                        <p class="product__price-old">$229.00</p>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="product">
+                  <div class="product__links">
+                    <a class="product__cart product__links-item" href="#">
+                      <svg class="product__search-img icon">
+                        <use xlink:href='images/sprite.svg#icon-cart-desktop'></use>
+                      </svg>
+                    </a>
+                    <button class="product__favourite product__links-item" href="#">
+                      <svg class="product__search-img icon">
+                        <use xlink:href='images/sprite.svg#icon-favourite'></use>
+                      </svg>
+                    </button>
+                    <a class="product__search product__links-item" href="#">
+                      <svg class="product__search-img icon">
+                        <use xlink:href='images/sprite.svg#icon-search-desktop'></use>
+                      </svg>
+                    </a>
+                  </div>
+                  <a class="product__inner" href="#">
+                    <div class="product__content">
+                      <div class="product__sale">
+                        13% OFF
+                      </div>
+                      <img class="product__img" src="images/product-1.jpg" alt="">
+                    </div>
+                    <div class="product__descr">
+                      <p class="product__name">African Violet</p>
+                      <div class="product__price">
+                        <p class="product__price-now">$199.00</p>
+                        <p class="product__price-old">$229.00</p>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="product">
+                  <div class="product__links">
+                    <a class="product__cart product__links-item" href="#">
+                      <svg class="product__search-img icon">
+                        <use xlink:href='images/sprite.svg#icon-cart-desktop'></use>
+                      </svg>
+                    </a>
+                    <button class="product__favourite product__links-item" href="#">
+                      <svg class="product__search-img icon">
+                        <use xlink:href='images/sprite.svg#icon-favourite'></use>
+                      </svg>
+                    </button>
+                    <a class="product__search product__links-item" href="#">
+                      <svg class="product__search-img icon">
+                        <use xlink:href='images/sprite.svg#icon-search-desktop'></use>
+                      </svg>
+                    </a>
+                  </div>
+                  <a class="product__inner" href="#">
+                    <div class="product__content">
+                      <div class="product__sale">
+                        13% OFF
+                      </div>
+                      <img class="product__img" src="images/product-1.jpg" alt="">
+                    </div>
+                    <div class="product__descr">
+                      <p class="product__name">African Violet</p>
+                      <div class="product__price">
+                        <p class="product__price-now">$199.00</p>
+                        <p class="product__price-old">$229.00</p>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="product">
+                  <div class="product__links">
+                    <a class="product__cart product__links-item" href="#">
+                      <svg class="product__search-img icon">
+                        <use xlink:href='images/sprite.svg#icon-cart-desktop'></use>
+                      </svg>
+                    </a>
+                    <button class="product__favourite product__links-item" href="#">
+                      <svg class="product__search-img icon">
+                        <use xlink:href='images/sprite.svg#icon-favourite'></use>
+                      </svg>
+                    </button>
+                    <a class="product__search product__links-item" href="#">
+                      <svg class="product__search-img icon">
+                        <use xlink:href='images/sprite.svg#icon-search-desktop'></use>
+                      </svg>
+                    </a>
+                  </div>
+                  <a class="product__inner" href="#">
+                    <div class="product__content">
+                      <div class="product__sale">
+                        13% OFF
+                      </div>
+                      <img class="product__img" src="images/product-1.jpg" alt="">
+                    </div>
+                    <div class="product__descr">
+                      <p class="product__name">African Violet</p>
+                      <div class="product__price">
+                        <p class="product__price-now">$199.00</p>
+                        <p class="product__price-old">$229.00</p>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="product">
+                  <div class="product__links">
+                    <a class="product__cart product__links-item" href="#">
+                      <svg class="product__search-img icon">
+                        <use xlink:href='images/sprite.svg#icon-cart-desktop'></use>
+                      </svg>
+                    </a>
+                    <button class="product__favourite product__links-item" href="#">
+                      <svg class="product__search-img icon">
+                        <use xlink:href='images/sprite.svg#icon-favourite'></use>
+                      </svg>
+                    </button>
+                    <a class="product__search product__links-item" href="#">
+                      <svg class="product__search-img icon">
+                        <use xlink:href='images/sprite.svg#icon-search-desktop'></use>
+                      </svg>
+                    </a>
+                  </div>
+                  <a class="product__inner" href="#">
+                    <div class="product__content">
+                      <div class="product__sale">
+                        13% OFF
+                      </div>
+                      <img class="product__img" src="images/product-1.jpg" alt="">
+                    </div>
+                    <div class="product__descr">
+                      <p class="product__name">African Violet</p>
+                      <div class="product__price">
+                        <p class="product__price-now">$199.00</p>
+                        <p class="product__price-old">$229.00</p>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="product">
+                  <div class="product__links">
+                    <a class="product__cart product__links-item" href="#">
+                      <svg class="product__search-img icon">
+                        <use xlink:href='images/sprite.svg#icon-cart-desktop'></use>
+                      </svg>
+                    </a>
+                    <button class="product__favourite product__links-item" href="#">
+                      <svg class="product__search-img icon">
+                        <use xlink:href='images/sprite.svg#icon-favourite'></use>
+                      </svg>
+                    </button>
+                    <a class="product__search product__links-item" href="#">
+                      <svg class="product__search-img icon">
+                        <use xlink:href='images/sprite.svg#icon-search-desktop'></use>
+                      </svg>
+                    </a>
+                  </div>
+                  <a class="product__inner" href="#">
+                    <div class="product__content">
+                      <div class="product__sale">
+                        13% OFF
+                      </div>
+                      <img class="product__img" src="images/product-1.jpg" alt="">
+                    </div>
+                    <div class="product__descr">
+                      <p class="product__name">African Violet</p>
+                      <div class="product__price">
+                        <p class="product__price-now">$199.00</p>
+                        <p class="product__price-old">$229.00</p>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="product">
+                  <div class="product__links">
+                    <a class="product__cart product__links-item" href="#">
+                      <svg class="product__search-img icon">
+                        <use xlink:href='images/sprite.svg#icon-cart-desktop'></use>
+                      </svg>
+                    </a>
+                    <button class="product__favourite product__links-item" href="#">
+                      <svg class="product__search-img icon">
+                        <use xlink:href='images/sprite.svg#icon-favourite'></use>
+                      </svg>
+                    </button>
+                    <a class="product__search product__links-item" href="#">
+                      <svg class="product__search-img icon">
+                        <use xlink:href='images/sprite.svg#icon-search-desktop'></use>
+                      </svg>
+                    </a>
+                  </div>
+                  <a class="product__inner" href="#">
+                    <div class="product__content">
+                      <div class="product__sale">
+                        13% OFF
+                      </div>
+                      <img class="product__img" src="images/product-1.jpg" alt="">
+                    </div>
+                    <div class="product__descr">
+                      <p class="product__name">African Violet</p>
+                      <div class="product__price">
+                        <p class="product__price-now">$199.00</p>
+                        <p class="product__price-old">$229.00</p>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="pagination">
+        <div class="container">
+          <ul class="pagination__list">
+            <li class="pagination__item">
+              <span class="pagination__item-link pagination__item-link--active">1</span>
+            </li>
+            <li class="pagination__item">
+              <a class="pagination__item-link" href="#">2</a>
+            </li>
+            <li class="pagination__item">
+              <a class="pagination__item-link" href="#">3</a>
+            </li>
+            <li class="pagination__item">
+              <a class="pagination__item-link" href="#">4</a>
+            </li>
+            <li class="pagination__item">
+              <a class="pagination__item-link" href="#">
+                <img src="images/pagination-arrow.svg" alt="">
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="offer">
+        <div class="container">
+          <div class="offer__inner">
+            <div class="offer__item">
+              <img class="offer__item-img" src="images/article-img-1.png" alt="">
+              <div class="offer__item-info">
+                <h4 class="offer__item-title">Summer cactus & succulents</h4>
+                <p class="offer__item-text">We are an online plant shop offering a wide range of cheap and trendy plants
+                </p>
+                <div class="offer__item-btn">
+                  <a class="btn-animation" href="#">
+                    Find More
+                    <svg>
+                      <use xlink:href='images/sprite.svg#icon-blog-arrow-right'></use>
+                    </svg>
+                  </a>
+                </div>
+
+              </div>
+            </div>
+            <div class="offer__item">
+              <img class="offer__item-img" src="images/article-img-2.png" alt="">
+              <div class="offer__item-info">
+                <h4 class="offer__item-title">Summer cactus & succulents</h4>
+                <p class="offer__item-text">We are an online plant shop offering a wide range of cheap and trendy plants
+                </p>
+                <div class="offer__item-btn">
+                  <a class="btn-animation" href="#">
+                    Find More
+                    <svg>
+                      <use xlink:href='images/sprite.svg#icon-blog-arrow-right'></use>
+                    </svg>
+                  </a>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__top">
+          <div class="footer__top-item">
+            <img class="footer__top-img" src="images/footer-img-1.svg" alt="">
+            <h5 class="footer__top-title">Garden Care</h5>
+            <p class="footer__top-text">We are an online plant shop offering a wide range of cheap and trendy plants.
+            </p>
+          </div>
+          <div class="footer__top-item">
+            <img class="footer__top-img" src="images/footer-img-1.svg" alt="">
+            <h5 class="footer__top-title">Plant Renovation</h5>
+            <p class="footer__top-text">We are an online plant shop offering a wide range of cheap and trendy plants.
+            </p>
+          </div>
+          <div class="footer__top-item">
+            <img class="footer__top-img" src="images/footer-img-1.svg" alt="">
+            <h5 class="footer__top-title">Watering Graden</h5>
+            <p class="footer__top-text">We are an online plant shop offering a wide range of cheap and trendy plants.
+            </p>
+          </div>
+          <form class="footer__form">
+            <h5 class="footer__form-title">Would you like to join newsletters?</h5>
+            <input class="footer__form-input" type="text" placeholder="enter your email address...">
+            <button class="footer__form-button">Join</button>
+            <p class="footer__top-text">We usually post offers and challenges in newsletter. We're your online
+              houseplant destination. We offer a wide range of houseplants and accessories shipped directly from our
+              (green)house to yours! </p>
+          </form>
+        </div>
+        <div class="footer__medium footer__medium-inner">
+          <a class="logo footer__logo" href="#">
+            <img class="logo__img" src="images/logo.svg" alt="Logo">
+          </a>
+          <div class="footer__medium-item footer__place">
+            <svg class="footer__medium-icon footer__place-icon">
+              <use xlink:href='images/sprite.svg#icon-location-pin'></use>
+            </svg>
+            <a class="footer__place-text" href="#">70 West Buckingham Ave. Farmingdale, NY 11735</a>
+          </div>
+          <div class="footer__medium-item footer__email">
+            <svg class="footer__medium-icon footer__email-icon">
+              <use xlink:href='images/sprite.svg#icon-mail'></use>
+            </svg>
+            <a class="footer__place-text" href="#">contact@greenshop.com</a>
+          </div>
+          <div class="footer__medium-item footer__phone">
+            <svg class="footer__medium-icon footer__phone-icon">
+              <use xlink:href='images/sprite.svg#icon-phone'></use>
+            </svg>
+            <a class="footer__place-text" href="#">+88 01911 717 490</a>
+          </div>
+        </div>
+        <div class="footer__bottom">
+          <ul class="footer__list">
+            <li class="footer__list-item">
+              <h5 class="footer__list-title">My Account</h5>
+            </li>
+            <li class="footer__list-item">
+              <a class="footer__list-link" href="#">My Account</a>
+            </li>
+            <li class="footer__list-item">
+              <a class="footer__list-link" href="#">Our stores</a>
+            </li>
+            <li class="footer__list-item">
+              <a class="footer__list-link" href="#">Contact us</a>
+            </li>
+            <li class="footer__list-item">
+              <a class="footer__list-link" href="#">Career</a>
+            </li>
+            <li class="footer__list-item">
+              <a class="footer__list-link" href="#">Specials</a>
+            </li>
+          </ul>
+          <ul class="footer__list">
+            <li class="footer__list-item">
+              <h5 class="footer__list-title">Help & Guide</h5>
+            </li>
+            <li class="footer__list-item">
+              <a class="footer__list-link" href="#">Help & Guide</a>
+            </li>
+            <li class="footer__list-item">
+              <a class="footer__list-link" href="#">How to Buy</a>
+            </li>
+            <li class="footer__list-item">
+              <a class="footer__list-link" href="#">Shipping & Delivery</a>
+            </li>
+            <li class="footer__list-item">
+              <a class="footer__list-link" href="#">Product Policy</a>
+            </li>
+            <li class="footer__list-item">
+              <a class="footer__list-link" href="#">How to Return</a>
+            </li>
+          </ul>
+          <ul class="footer__list">
+            <li class="footer__list-item">
+              <h5 class="footer__list-title">Categories</h5>
+            </li>
+            <li class="footer__list-item">
+              <a class="footer__list-link" href="#">House Plants</a>
+            </li>
+            <li class="footer__list-item">
+              <a class="footer__list-link" href="#">Potter Plants</a>
+            </li>
+            <li class="footer__list-item">
+              <a class="footer__list-link" href="#">Seeds</a>
+            </li>
+            <li class="footer__list-item">
+              <a class="footer__list-link" href="#">Small Plants</a>
+            </li>
+            <li class="footer__list-item">
+              <a class="footer__list-link" href="#">Accessories</a>
+            </li>
+          </ul>
+          <div class="footer__links">
+            <h5 class="footer__links-title">Social Media</h5>
+            <div class="footer__social">
+              <a class="footer__social-link" href="#">
+                <svg class="footer__social-icon social-icon">
+                  <use xlink:href='images/sprite.svg#icon-social-1'></use>
+                </svg>
+              </a>
+              <a class="footer__social-link" href="#">
+                <svg class="footer__social-icon social-icon">
+                  <use xlink:href='images/sprite.svg#icon-social-2'></use>
+                </svg>
+              </a>
+              <a class="footer__social-link" href="#">
+                <svg class="footer__social-icon social-icon">
+                  <use xlink:href='images/sprite.svg#icon-social-3'></use>
+                </svg>
+              </a>
+              <a class="footer__social-link" href="#">
+                <svg class="footer__social-icon social-icon">
+                  <use xlink:href='images/sprite.svg#icon-social-4'></use>
+                </svg>
+              </a>
+              <a class="footer__social-link" href="#">
+                <svg class="footer__social-icon social-icon">
+                  <use xlink:href='images/sprite.svg#icon-social-5'></use>
+                </svg>
+              </a>
+            </div>
+            <div class="footer__companies">
+              <h5 class="footer__companies-title">We accept</h5>
+              <img src="images/paycards.png" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <a class="copyright__link" href="#">© 2021 GreenShop. All Rights Reserved.</a>
+      </div>
+    </footer>
+  </div>
+
+  <div class="mobile-menu">
+    <img class="mobile-menu__btn" src="images/central-menu-mobile.svg" alt="">
+    <div class="mobile-menu__inner">
+      <div class="mobile-menu__links-left">
+        <a class="mobile-menu__link" href="#">
+          <svg class="mobile-menu__link-img mobile-menu__link-img--active">
+            <use xlink:href='images/sprite.svg#icon-home-mobile'></use>
+          </svg>
+        </a>
+        <a class="mobile-menu__link" href="#">
+          <svg class="mobile-menu__link-img">
+            <use xlink:href='images/sprite.svg#icon-favourites-mobile'></use>
+          </svg>
+        </a>
+      </div>
+      <div class="mobile-menu__links-right">
+        <a class="mobile-menu__link" href="#">
+          <svg class="mobile-menu__link-img">
+            <use xlink:href='images/sprite.svg#icon-cart-mobile'></use>
+          </svg>
+        </a>
+        <a class="mobile-menu__link" href="#">
+          <svg class="mobile-menu__link-img">
+            <use xlink:href='images/sprite.svg#icon-user-mobile'></use>
+          </svg>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal">
+    <div class="modal__inner">
+
+      <div class="modal__close" data-close></div>
+      
+      <div class="modal__inner-content">
+        <div class="modal__tabs">
+
+          <div class="modal__tab modal__tab--active">Login</div>
+          <div class="modal__tab-decor">I</div>
+          <div class="modal__tab">Register</div>
+
+        </div>
+
+        <div class="modal__content modal__content--show">
+          <form class="modal__form modal__form--show" action="#">
+            <p class="modal__form-text">Enter your username and password to login.</p>
+            <input class="modal__email modal__input" type="text" placeholder="email">
+            <div class="modal__password-wrapper ">
+              <input class="modal__password modal__input" type="password" placeholder="password">
+              <svg class="modal__password-img">
+                <use xlink:href='images/sprite.svg#icon-eye'></use>
+              </svg>
+            </div>
+            <div class="modal__close-btn"></div>
+            <a class="modal__help" href="#">Forgot Password?</a>
+            <button class="modal__login-btn button btn-animation">Login</button>
+          </form>
+          <p class="modal__content-text">Or login with</p>
+          <button class="modal__google-login modal__login">
+            <img class="modal__google-img" src="images/google.svg" alt="">
+            Login with Google
+          </button>
+          <button class="modal__facebook-login modal__login">
+            <img class="modal__facebook-img" src="images/facebook.svg" alt="">
+            Login with Facebook
+          </button>
+        </div>
+
+        <div class="modal__content tabs-content--hide">
+          <form class="modal__form" action="#">
+            <p class="modal__form-text">Enter your username and password to login.</p>
+            <input class="modal__user-name modal__input" type="text" placeholder="Username">
+            <input class="modal__email modal__input" type="email" placeholder="Enter your email address">
+            <div class="modal__password-wrapper modal__password-wrapper--2">
+              <input class="modal__password modal__input modal__password--2" type="text" placeholder="password">
+              <svg class="modal__password-img modal__password-img--2">
+                <use xlink:href='images/sprite.svg#icon-eye'></use>
+              </svg>
+            </div>
+            <input class="modal__password-confirm modal__input" type="text" placeholder="Confirm Password">
+            <div class="modal__close-btn"></div>
+            <a class="modal__help mt-small" href="#">Forgot Password?</a>
+            <button class="modal__login-btn button btn-animation">Register</button>
+          </form>
+          <p class="modal__content-text">Or register with</p>
+          <button class="modal__google-login modal__login">
+            <img class="modal__google-img" src="images/google.svg" alt="">
+            Login with Google
+          </button>
+          <button class="modal__facebook-login modal__login">
+            <img class="modal__facebook-img" src="images/facebook.svg" alt="">
+            Login with Facebook
+          </button>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <script src="js/main.min.js"></script>
+
+
+
+
+</body>
+
+</html>
