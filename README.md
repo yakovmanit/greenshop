@@ -1,2 +1,2 @@
 Project link
-https://yakovmanit.github.io/greenshop
+https://yakovmanit.github.io/greenshop/
